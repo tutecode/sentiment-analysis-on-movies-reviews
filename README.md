@@ -10,13 +10,13 @@ Basically this is a basic sentiment analysis problem, as in this case, consists 
 
 In this project, we will work exclusively with two files: `movies_review_train_aai.csv` and `movies_review_test_aai.csv`.
 
-You don't have to worry about downloading the data, it will be automatically downloaded from the `AnyoneAI - Sprint Project 05.ipynb` notebook in `Section 1. Get the data`.
+You don't have to worry about downloading the data, it will be automatically downloaded from the `Project.ipynb` notebook in `Section 1. Get the data`.
 
 This is a dataset for **binary sentiment classification**.
 
 ## Technical aspects
 
-To develop this Machine Learning model you will have to primary interact with the Jupyter notebook provided, called `AnyoneAI - Sprint Project 05.ipynb`. This notebook will guide you through all the steps you have to follow and the code you have to complete in the different parts of the project, also marked with a `TODO` comment.
+To develop this Machine Learning model you will have to primary interact with the Jupyter notebook provided, called `Project.ipynb`. This notebook will guide you through all the steps you have to follow and the code you have to complete in the different parts of the project, also marked with a `TODO` comment.
 
 ## Install
 
@@ -37,7 +37,7 @@ $ cd project
 $ jupyter notebook
 ```
 
-Then, inside the file `AnyoneAI - Sprint Project 05.ipynb`, you can see the project statement, description and also which parts of the code you must complete in order to solve it.
+Then, inside the file `Project.ipynb`, you can see the project statement, description and also which parts of the code you must complete in order to solve it.
 
 ## Code Style
 
@@ -55,7 +55,7 @@ Wanna read more about Python code style and good practices? Please see:
 
 ## Tests
 
-We've added some basic tests to `AnyoneAI - Sprint Project 05.ipynb` that you must be able to run without errors in order to approve the project. If you encounter some issues in the path, make sure to be following these requirements in your code:
+We've added some basic tests to `Project.ipynb` that you must be able to run without errors in order to approve the project. If you encounter some issues in the path, make sure to be following these requirements in your code:
 
 - Every time you need to run a tokenizer on your sentences, use `nltk.tokenize.toktok.ToktokTokenizer`.
 - When removing stopwords, always use `nltk.corpus.stopwords.words('english')`.
